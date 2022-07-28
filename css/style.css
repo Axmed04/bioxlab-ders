@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .d-flex {
+    display: flex;
+  }
+  .j-between {
+    justify-content: space-between;
+  }
+  
+  .j-center {
+    justify-content: center;
+  }
+  .img-fluid {
+    width: 100%;
+  }
+  
+  .list-unstyled {
+    list-style: none;
+  }
+  .decoration-none {
+    text-decoration: none;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .header{
+    padding: 15px 30px;
+    /* box-shadow: 0 0 20px #ccc; */
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+  }
+  .header .logo img{
+    width: 200px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .header .d-flex .menu ul li a{
+    
+    display: block;
+    padding: 20px;
+    color: #000;
+  }
+  .header  .nav-call a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    color: #000;
+  }
+  .header .d-flex .menu ul li{
+    padding-left: 50px;
+  }
+  .header .d-flex .nav-call{
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 5px;
+    margin: 15px 0;
+    /* background-color: red; */
+    /* font-size: 20px; */
+  }
+  .header .d-flex .nav-call a{
+    display: block;
+    padding: 20px 30px;
+    color: #000;
+  }
+  .header .d-flex .nav-call span{
+    color: #888;
+    font-weight: 600;
+  }
+  /* header :end  */
+  .welcome{
+    padding: 15rem 0;
+    position: relative;
+  }
+  .welcome .welcome-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .welcome .welcome-img img{
+    width: 400px;
+    border-radius: 0px 0px 362px 362px;
+  }
+  .welcome .welcome-content{
+    width: 50%;
+  }
+  .welcome .welcome-content h1{
+    font-size: 3.8em;
+    text-transform: capitalize;
+    line-height: 70px;
+    margin: 2rem 0;
+    color: #171151;
+  }
+  .welcome .welcome-content span{
+    color: #0E74FF;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .welcome .welcome-content p{
+    color: #888;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  .welcome .welcome-content .welcome-buttons a{
+
+    background-color: #10D0A1;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 0;
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 5px;
+
+
+
+  }
+  .welcome .welcome-content .welcome-buttons .btn-app{
+    background-color: #0E63FF;
+  }
+  
